@@ -529,6 +529,12 @@
             { start: new Date(2013, 10, 21), end: new Date(2014, 2, 17), value: 55.50 }
         ];
 
+// start with local sqllight or whatever it is
+// generate indicators first and store them
+// replace with jinja
+// use a python technical indicator library
+// update: iexcloud provides all the technical indicators you need https://iexcloud.io/docs/api/#technical-indicators
+// if x then append the relevant Data
         var trades = [
             { date: data[67].date, type: "buy", price: data[67].low, low: data[67].low, high: data[67].high },
             { date: data[100].date, type: "sell", price: data[100].high, low: data[100].low, high: data[100].high },
